@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width, initial-scale-1.0">
+        <title>Letsmeal Food Delivery App</title>
+        <link rel="stylesheet" href="style.css">
+        <link
+         rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+         integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+         crossorigin="anonymous"
+         referrerpolicy="no-referrer"
+         />
+    </head>
+    <body>
+        <header>
+            <nav class="navbar">
+                <a href="#" class="logo">
+                  <h1 id="">LetsMeal
+                  </h1>
+                  <span id="logo2"><i class="fa-solid fa-utensils"></i></span>
+                </a>
+                <div class="nav-items">
+
+                    <div class="greetings-container">
+                      <p class="greeting-text">Morning Home</p>
+                      <p class="welcome-text">Welcome Back!!</p>
+                    </div>
+                    <div class="search-box">
+                        <span class="search-icon">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </span>
+                       <input type="search" placeholder="search" id="search">
+                    </div>
+
+                </div>
+            </nav>
+        </header>
+<main id="app">
+<h1>Top restaurant in your area</h1>
+<section class="filter-sort-container">
+    <select name="sort by" id="sort">
+        <option value="rating">Sort by rating</option>
+        <option value="eta">Sort by eta</option>
+    </select>
+    <select name="Filter by " id="filter">
+        <option value="all">All Food Types</option>
+        <option value="American">American</option>
+        <option value="Maxican">Maxican</option>
+        <option value="French">French</option>
+        <option value="Chinese">Chinese</option>
+        <option value="Indian">Indian</option>
+        <option value="Itelian">Itelian</option>
+    </select>
+
+</section>
+<section id="restaurant-list">
+</section>
+</main>
+
+   <script src="app.js"></script>
+    </body>
+</html>
